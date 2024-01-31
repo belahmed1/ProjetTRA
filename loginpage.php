@@ -11,7 +11,7 @@
         $host = 'localhost';
         $user = 'root';
         $password = '';
-        $dbname = 'mydatabase';
+        $dbname = 'test';
         $conn = mysqli_connect($host, $user, $password, $dbname);
 
         if (!$conn) {
